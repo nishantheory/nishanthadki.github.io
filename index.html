@@ -1,0 +1,125 @@
+<!--Developed by Adki Nishanth-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adki Nishanth</title>
+<style>
+    body{ font:15px/1.5 Arial , Helvetica , sans-serif; padding: 0; margin: 0; background-color:#3E33F; } /*global*/ .container{ width: 80%; margin: auto; overflow: hidden; } /*header*/ header{ background:#35424a; color:#ffffff; padding-top:30px; min-height:70px; border-bottom:#e8491d 3px solid; } header #branding h1{   margin: 0; } header nav {   float: right;   margin-top: 10px; } header .highlight, header .current a{   color: #e8491d;   font-weight:bold; } header a :hover{   color: :#cccccc;   font-weight: bold; } /*showcase*/ #showcase{   min-height: 400px;   background:url('../img/back.jpeg')  0 -300px;   text-align:center;   color:#998F8D; } #showcase h1{   margin-top: 100px;   font-size: 55px;   margin-bottom: 10px; } #showcase p{   font-size:30px; }  footer{   padding: 20px;   margin-top: 20px;   color: #ffffff;   background-color: #e8491d; text-align: center; }
+body{
+    background-color:black;
+}
+#a{
+    width:0px;
+    height:500px;
+   background-image:linear-gradient(45deg,pink,#0085ed);
+   transition:width 1s;
+   border-radius:20px;
+   border:2px solid black;
+   overflow-x:hidden;
+   }
+   #g{
+    position:relative;
+    top:-500px;
+   box-shadow:0px 0px 40px black;
+  border-radius:50%;
+  background-image:linear-gradient(45deg,pink,#0085ed);
+   width:50px;
+   height:50px;
+   outline:white;
+   opacity:0.8;
+   color:white;
+}
+#jo{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    color:white;
+}
+#ok{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    display:block;
+    color:white;
+    top:-45px;
+}
+#we{
+    position:relative;
+    right:-50px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    top:-90px;
+}
+#blu{
+    color:black;
+    position:relative;
+   top:-320px;
+   right:-140px;
+   display:block;
+   color:white;
+}
+a{
+    font-family:courier;
+}
+
+</style>
+<script type="text/javascript">
+    function hi()
+{
+    document.getElementById('a').style="width:160px;";
+    
+    
+}
+function hello()
+{
+   document.getElementById('a').style="width:0px;"; 
+}
+
+</script>
+</head>
+  <body>
+      
+              
+
+<header>
+    
+  
+    <div id="branding">
+        <div id="a">
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="#" id="jo"><h3>&laquo; Home</h3></a>
+             <br>
+            <br>
+             <a href="#" id="ok"><h3>&laquo; About</h3></a>
+             <br>
+             <br>
+             <a href="#" id="we"><h3>&laquo; Logins</h3></a>
+            
+       <span id="blu" onclick="hello()"><h2>&times;</h2></span>
+       
+        </div>
+        
+           
+                  <button type="button" id="g" onclick="hi()">Menu</button>
+      <h1><span class="highlight">{ Adki Nishanth }</span></h1>
+    </div>
+  
+</header>
+<section id="showcase">
+    
+       
+  
+     
+    <h1>ABOUT ME</h1>
+<p>Iam Nishanth Adki:)<br/>Insomniac even in a dream...</p>  </div>
+</section>
+<footer>
+<p>Nishanth,Copyrights &copy; 2020</p>
+</footer>
+  </body>
+</html>
